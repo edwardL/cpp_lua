@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_lua", "cpp_lua\cpp_lua.vcxproj", "{8D9CA836-6F7A-4A20-B2B7-35620EAAD836}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinFeature", "WinFeature\WinFeature.vcxproj", "{FD3B7B62-D7B0-44AD-A3F2-9163B84AF6DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9CA836-6F7A-4A20-B2B7-35620EAAD836}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D9CA836-6F7A-4A20-B2B7-35620EAAD836}.Debug|Win32.Build.0 = Debug|Win32
+		{8D9CA836-6F7A-4A20-B2B7-35620EAAD836}.Release|Win32.ActiveCfg = Release|Win32
+		{8D9CA836-6F7A-4A20-B2B7-35620EAAD836}.Release|Win32.Build.0 = Release|Win32
+		{FD3B7B62-D7B0-44AD-A3F2-9163B84AF6DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD3B7B62-D7B0-44AD-A3F2-9163B84AF6DA}.Debug|Win32.Build.0 = Debug|Win32
+		{FD3B7B62-D7B0-44AD-A3F2-9163B84AF6DA}.Release|Win32.ActiveCfg = Release|Win32
+		{FD3B7B62-D7B0-44AD-A3F2-9163B84AF6DA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
