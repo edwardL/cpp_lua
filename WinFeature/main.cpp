@@ -142,6 +142,16 @@ extern "C" int getsize(lua_State* L)
 	return 1;
 }
 
+extern "C" int newtable(lua_State* L)
+{
+	int n = 1;
+	lua_newtable(L);
+	lua_pushnumber(L,1);
+	lua_rawseti(L,-2,n++);
+	lua_pushnumber(L,2);
+	lua_rawseti(L,-2,n++);
+	return 1;
+}
 
 // 导出函数列表.  
 static luaL_Reg luaLibs[] =  
@@ -152,6 +162,7 @@ static luaL_Reg luaLibs[] =
 	{"set", setarray},
 	{"get", getarray},
 	{"size", getsize},
+	{"newtable",newtable},
 	{NULL, NULL}  
 };  
 

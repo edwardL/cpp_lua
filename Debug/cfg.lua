@@ -45,6 +45,10 @@ print("-------------------------------- userdata test begin")
 a = WinFeature.new(100)
 print(WinFeature.size(a))
 
+local t = WinFeature.newtable(a)
+print(t[1],t[2])
+print("---------------")
+
 for i = 1, 100 do 
 	WinFeature.set(a,i,1)
 end
